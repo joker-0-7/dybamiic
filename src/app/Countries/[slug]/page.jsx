@@ -26,7 +26,6 @@ export default async function Page({ params, searchParams }) {
   const data = await axios.get(`https://jsonplaceholder.typicode.com/posts/${id}`).then(data => data.data)
   return(
     <div className="app-page bg-dark text-light min-vh-100 pt-3 pb-5">
-    {console.log(data)}
   <div className="container">
     <div className="app-info d-flex justify-content-between align-items-center w-75 mb-4">
       <div className="img">
