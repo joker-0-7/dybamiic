@@ -1,5 +1,6 @@
 // import Image from "next/image"
 // import { statesJson } from "../page"
+'use clirnt'
 import axios from "axios"
 // function fetchStates(params){
  
@@ -29,10 +30,6 @@ export default async function Page({ params, searchParams }) {
   <div className="container">
     <div className="app-info d-flex justify-content-between align-items-center w-75 mb-4">
       <div className="img">
-        <img
-          src="https://app.apkbaba.com/wp-content/uploads/Crash-Bandicoot-%D9%85%D9%87%D9%83%D8%B1%D8%A9-icon-apkbaba-150x150.webp"
-          alt=""
-        />
       </div>
       <div className="info">
         <div className="heading mb-4">
@@ -86,7 +83,6 @@ export default async function Page({ params, searchParams }) {
     </div>
     <div className="article">
       <div className="article-img text-center">
-        <img src="https://app.apkbaba.com/wp-content/uploads/Auto-Hero-%D9%85%D9%87%D9%83%D8%B1%D8%A9-img-1-apkbaba.webp" alt="img" />
       </div>
       <div className="article-word"></div>
       <div className="features">
