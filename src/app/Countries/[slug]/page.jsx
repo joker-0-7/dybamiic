@@ -1,5 +1,5 @@
-import Image from "next/image"
-import { statesJson } from "../page"
+// import Image from "next/image"
+// import { statesJson } from "../page"
 import axios from "axios"
 // function fetchStates(params){
  
