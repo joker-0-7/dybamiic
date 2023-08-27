@@ -5,7 +5,7 @@ export const metadata = {
   description: 'geo political zones in Nigeria',
 }
 
-export default function RootLayout({ children }) {
+export default function SlugLayout({ children }) {
   return (
     <html lang="en">
       <body>
